@@ -15,6 +15,9 @@
 		9674F71C28EA15C800AADFA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9674F71A28EA15C800AADFA4 /* Main.storyboard */; };
 		9674F71E28EA15C900AADFA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9674F71D28EA15C900AADFA4 /* Assets.xcassets */; };
 		9674F72128EA15C900AADFA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9674F71F28EA15C900AADFA4 /* LaunchScreen.storyboard */; };
+		9674F72928EA1A3700AADFA4 /* AnimifyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9674F72628EA1A3700AADFA4 /* AnimifyTableView.swift */; };
+		9674F72A28EA1A3700AADFA4 /* AnimifyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9674F72728EA1A3700AADFA4 /* AnimifyFactory.swift */; };
+		9674F72B28EA1A3700AADFA4 /* Animify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9674F72828EA1A3700AADFA4 /* Animify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		9674F71D28EA15C900AADFA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9674F72028EA15C900AADFA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9674F72228EA15C900AADFA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9674F72628EA1A3700AADFA4 /* AnimifyTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimifyTableView.swift; sourceTree = "<group>"; };
+		9674F72728EA1A3700AADFA4 /* AnimifyFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimifyFactory.swift; sourceTree = "<group>"; };
+		9674F72828EA1A3700AADFA4 /* Animify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animify.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,9 @@
 		9674F70428EA152400AADFA4 /* Animify */ = {
 			isa = PBXGroup;
 			children = (
+				9674F72828EA1A3700AADFA4 /* Animify.swift */,
+				9674F72728EA1A3700AADFA4 /* AnimifyFactory.swift */,
+				9674F72628EA1A3700AADFA4 /* AnimifyTableView.swift */,
 				9674F70528EA152400AADFA4 /* Animify.h */,
 				9674F70628EA152400AADFA4 /* Animify.docc */,
 			);
@@ -201,7 +210,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9674F72A28EA1A3700AADFA4 /* AnimifyFactory.swift in Sources */,
+				9674F72B28EA1A3700AADFA4 /* Animify.swift in Sources */,
 				9674F70728EA152400AADFA4 /* Animify.docc in Sources */,
+				9674F72928EA1A3700AADFA4 /* AnimifyTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
